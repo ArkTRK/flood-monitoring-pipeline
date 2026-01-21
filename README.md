@@ -38,12 +38,12 @@ Antes de iniciar, você precisará ter:
 3. **Configure as Variáveis de Ambiente**
 Crie um arquivo .env baseado no exemplo abaixo:
 
-DB_HOST=seu_ip
-DB_NAME=weather_db
-DB_USER=seu_usuario
-DB_PASS=sua_senha
-DB_PORT=5432
-GEMINI_API_KEY=sua_chave_aqui
+   DB_HOST=seu_ip
+   DB_NAME=weather_db
+   DB_USER=seu_usuario
+   DB_PASS=sua_senha
+   DB_PORT=5432
+   GEMINI_API_KEY=sua_chave_aqui
 
 4. **Prepare o Banco de Dados**
 Execute os scripts SQL disponíveis em schema.sql para criar as tabelas cidades, historico_clima e insights_gemini.
