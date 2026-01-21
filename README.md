@@ -81,3 +81,19 @@ Para validar o pipeline e visualizar os alertas em tempo real:
 3. Execute o script principal:
    ```bash
    python main.py
+   
+## 📸 Demonstração
+
+O pipeline é executado sob demanda, realizando a extração dos dados meteorológicos e a análise via IA. Abaixo, um registro do processamento em tempo real:
+
+<p align="center"><img src="assets/img01.png"></p>
+
+<p align="center"><img src="assets/img02.png"></p>
+
+📊 Abaixo, o registro da tabela `insights_gemini` após a execução do pipeline. O sistema demonstra sucesso ao classificar diferentes níveis de risco (Moderado, Baixo, Alto e Crítico) com base nos dados meteorológicos reais.
+
+<p align="center"><img src="assets/img03.png"></p>
+
+Os dados foram persistidos em um banco PostgreSQL hospedado em um servidor Ubuntu Server na rede local, reforçando a integração entre ambientes de desenvolvimento e produção.
+
+
