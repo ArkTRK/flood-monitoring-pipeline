@@ -94,6 +94,6 @@ O pipeline é executado sob demanda, realizando a extração dos dados meteorol�
 
 <p align="center"><img src="assets/img03.png"></p>
 
-Os dados foram persistidos em um banco PostgreSQL hospedado em um servidor Ubuntu Server na rede local, reforçando a integração entre ambientes de desenvolvimento e produção.
+Os dados foram persistidos em um banco PostgreSQL hospedado em um servidor Ubuntu Server na rede local.
 
 
